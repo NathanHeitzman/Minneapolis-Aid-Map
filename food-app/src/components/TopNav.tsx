@@ -20,26 +20,26 @@ const TopNav = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" href="/restaurant-map">Local Restaurants Nearby</a>
+                            <Link className="nav-link" to="/restaurant-map">Local Restaurants Nearby</Link>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Food Shelters
                             </a>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="/list-of-food-shelters">List of Food Shelters</a></li>
+                                <li><Link className="dropdown-item" to="/list-of-food-shelters">List of Food Shelters</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><a className="dropdown-item" href="/be-a-volunteer-food-shelters">Be a Volunteer</a></li>
+                                <li><Link className="dropdown-item" to="/be-a-volunteer-food-shelters">Be a Volunteer</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Food Drops
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="/list-of-food-drops">List of Food Drops</a></li>
+                                <li><Link className="dropdown-item" to="/list-of-food-drops">List of Food Drops</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><a className="dropdown-item" href="/create-food-drops">Create a Food Drop</a></li>
+                                <li><Link className="dropdown-item" to="/create-food-drops">Create a Food Drop</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item">
