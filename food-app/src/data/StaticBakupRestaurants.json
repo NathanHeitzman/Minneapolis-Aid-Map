@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "Catzen Coffee",
+    "city": "St.Paul",
+    "position": [44.93997954380645, -93.16016981349244],
+    "website":"https://catzencoffee.com/",
+    "description": "Catzen Coffee is a cozy, women-owned café in St. Paul that blends quality coffee with community spirit. Known for its cat-themed decor and welcoming atmosphere, you can even drink your coffee with cats in their reservation cat room! Catzen serves locally roasted brews and fresh pastries in a space that's proudly LGBTQ+ friendly."
+  },
+  
+  {
+    "id": 2,
+    "name": "Khâluna",
+    "city": "Minneapolis",
+    "position": [44.93031762489227, -93.28851427074878],
+    "website": "https://khaluna.com/",
+    "description": "Khâluna is a vibrant, family-owned restaurant in Minneapolis that offers a soulful escape into the heart of Southeast Asia. Rooted in the Laotian value of compassion, Khâluna blends cultural authenticity with modern elegance. Chef Ann brings her heritage to life through a colorful, diverse menu and a warm, resort-like atmosphere."
+  },
+  
+  {
+    "id": 3,
+    "name": "El Cubano",
+    "city": "St.Paul",
+    "position": [44.92000941685853, -93.09579647301508],
+    "website":"https://elcubanorestaurante.com/",
+    "description":"El Cubano is a family-owned restaurant in St. Paul that brings the rich, soulful flavors of traditional Cuban cuisine to the heart of the Midwest. Known for dishes like slow-roasted pork, pressed Cuban sandwiches, and sweet plantains, El Cubano serves comfort food made with care and cultural pride. The vibrant, welcoming atmosphere captures the spirit of Cuba, offering a warm and inclusive space where community and flavor come together."
+    
+  },
+  
+  {
+    "id": 4,
+    "name": "Sidewalk Kitchen",
+    "city": "Minneapolis",
+    "position": [44.973955537227354, -93.22624745767169],
+    "website": "https://sidewalkkitchenmn.com/",
+    "description": "Sidewalk Kitchen is a family-owned gem in Minneapolis serving bold, Chinese-inspired food made with heart. From savory bao buns to sizzling stir-fries, the menu offers comforting, flavorful dishes rooted in tradition and crafted for everyday enjoyment. With its casual, welcoming vibe and commitment to quality, Sidewalk Kitchen brings the warmth of Chinese home cooking to the neighborhood—celebrating culture, community, and great food."
+  },
+  {
+    "id": 5,
+    "name": "Chimborazo",
+    "city": "Minneapolis",
+    "position": [45.022080295495904, -93.24762927880106],
+    "website": "https://chimborazorestaurant.com/home/",
+    "description": "Chimborazo invites you to experience the rich, traditional flavors of Ecuador and the Andean Highlands. Serving hearty, authentic dishes inspired by Ecuadorian family tables, the restaurant reflects the culinary heritage of owner and chef Marcos Pinguil, who brings recipes from his homeland in the Cañar Sierra and tropical coast to Minneapolis. Inspired by indigenous lore, Chimborazo blends the warmth of Otavaleño textiles and traditional Quichua music, creating a welcoming atmosphere that celebrates Andean culture and community."
+  },
+  {
+    "id": 6,
+    "name": "My Huong Kitchen",
+    "city": "Minneapolis",
+    "position": [44.95325300845291, -93.2783118423283],
+    "website": "https://myhuongkitchen.com/",
+    "description": "My Huong Kitchen is a welcoming, family-friendly Vietnamese restaurant in Minneapolis dedicated to serving the very best of authentic Vietnamese cuisine. With a warm and friendly atmosphere, the restaurant prides itself on attentive service, great prices, and a diverse menu featuring favorites like pho, banh mi sandwiches, French crepes, boba smoothies, curry, and noodle salad. Whether you're craving comforting traditional dishes or something fresh and flavorful, My Huong Kitchen offers a satisfying experience for all ages."
+}
+
+]

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/*By convention of this file, border styles should be at the bottom of all styles to make it
+ easier to experiment with divs and how they fit on the page*/
+body{
+    background-color: #a9b88c;
+}
+nav{
+    background-color: #7a8c74;
+}
+
+.row-container { /*every row container will typically contain and image with some text next to it*/
+    width: 100%; /*take up 100% width of the page*/
+    height: auto;
+    display: flex;
+    flex-direction: row; /*Display all content in the row horizontally*/
+    justify-content: space-between;
+    align-items: stretch; /*makes the heights the same*/
+
+    border-style: dashed;
+}
+
+.image-container { /*All images on the Homepage*/
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-style: dashed;
+    border-color: red;
+}
+
+#image {
+    min-height: 450px;
+    width: 800px; /*make the width the same to look better*/
+    max-width: 100%;
+    height: auto;
+    max-height: 50vh; /* Ensures the image doesn't exceed 50% of the viewport height */
+
+    border: 4px solid;
+    border-radius: 8px;
+}
+
+.motto-container{
+    display: flex; /*Text in the center will be absolutely centered*/
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%; /*takes up 50% of the row container on the right side*/
+    
+    font-size: 60px; /*Text*/
+    font-family: 'Montserrat', sans-serif;
+
+    border-style: dashed;
+    border-color: red;
+}
+.motto-text-container{
+    background: hsl(139, 22%, 51%);
+    margin: 5vw;
+    padding: 40px;
+
+    border: 4px solid black;
+    border-radius: 8px;
+        
+}
+
+.mission-statement-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+    border-style: dashed;
+    border-color:blue;
+}
+.mission-statement-container p{
+    margin-bottom: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Montserrat', sans-serif;
+    background:hsl(139, 22%, 51%);
+    font-size: 19px;
+    padding: 30px;
+    
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+/*Media tags to change the formats when the size changes*/
+@media (max-width: 1350px){
+    .motto-text-container{
+        padding: 30px;
+    }
+    .motto-container p{
+        font-size: 45px;
+    }
+    #mission-statement-container p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 992px){ /*This is where it becomes a column layout*/
+    .row-container {
+        flex-direction: column; /*Align items better for a phone view*/
+        align-items: center; /* center the now-stacked children */
+    }
+    
+    .motto-container,
+    .image-container{
+        width: 100%;
+    }
+    .mission-statement-container{ /*container within the row that contains a lot of text*/
+        width: 100%;
+    }
+    .mission-statement-container p{ /*Remove padding and margins so text can fill up as much space as possible*/
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    #image{ /*Change images to take up 100% of their container to avoid stretching*/
+        width: 90%;
+        max-width: 100%;
+        height: auto;
+        
+    }
+    .motto-container p{
+        font-size: 40px;
+    }
+    .mission-statement-container p{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 455px){
+    .motto-text-container p{
+        font-size: 38px;
+    }
+}
+
+.container {
+    max-width: 100% !important;
+    width: 100% !important;
+}
