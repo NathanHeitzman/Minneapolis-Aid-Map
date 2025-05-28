@@ -3,7 +3,7 @@ import { MapContainer, TileLayer, Marker as LeafletMarker, Popup } from "react-l
 import BackupRestaurants from "../data/StaticBakupRestaurants.json"
 
 const Minneapolis: [number, number] = [44.9778,-93.2650]; //tuple of [Latitude,Longitude]
-function MapView() {
+function MapView({}) {
     return (
         <MapContainer 
         center ={Minneapolis} 
