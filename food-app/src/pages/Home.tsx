@@ -1,8 +1,8 @@
 import TopNav from "../components/TopNav";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";  // Ensure JS is loaded
-import HappyPeopleWithFood from '../images/happy-people-image.avif';
-import GroupOfPeople from '../images/group-of-people.jpg'
+import HappyPeopleWithFood from '../assets/images/happy-people-image.avif';
+import GroupOfPeople from '../assets/images/group-of-people.jpg'
 import './Home.css';
 
 function Home() {  
