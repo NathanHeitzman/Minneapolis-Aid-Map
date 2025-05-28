@@ -3,7 +3,6 @@ import TopNav from "../components/TopNav";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./restaurant.css"; // Import CSS
-import { MapContainer } from "react-leaflet";
 import MapView from "../components/MapView";
 
 interface Restaurant {
