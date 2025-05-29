@@ -10,7 +10,7 @@ This project was made as part of a team for a hackathon (Minnehack 2025). My inv
 # Install and Run
 Open your terminal and apply these steps
 ```bash
-cd food-app
+cd food-app #change your directory into the food-app
 
 npm install
 
