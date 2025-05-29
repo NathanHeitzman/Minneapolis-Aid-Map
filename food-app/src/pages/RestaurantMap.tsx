@@ -67,7 +67,7 @@ const RestaurantMap: React.FC = () => {
         <> 
           <div className="text-center text-white">No restaurants found from API. Here are some common locations while we fix the bug:</div>
           <main className="map-container">
-            <MapView />
+            <MapView mode="restaurants"/>
           </main>
         </>
         ) 

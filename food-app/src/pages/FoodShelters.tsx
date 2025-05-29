@@ -66,7 +66,7 @@ const FoodShelterMap: React.FC = () => {
             ? (<>
               <li className="list-group-item">No food shelters found through API.</li>
               <main className="map-container">
-                <MapView />
+                <MapView mode="shelters"/>
               </main>
               </>
             ) 
