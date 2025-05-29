@@ -17,7 +17,7 @@ nav{
     justify-content: space-between;
     align-items: stretch; /*makes the heights the same*/
 
-    border-style: dashed;
+    /*border-style: dashed;*/
 }
 
 .image-container { /*All images on the Homepage*/
@@ -27,8 +27,8 @@ nav{
     align-items: center;
     justify-content: center;
 
-    border-style: dashed;
-    border-color: red;
+    /*border-style: dashed;
+    border-color: red;*/
 }
 
 #image {
@@ -52,8 +52,8 @@ nav{
     font-size: 60px; /*Text*/
     font-family: 'Montserrat', sans-serif;
 
-    border-style: dashed;
-    border-color: red;
+    /*border-style: dashed;
+    border-color: red;*/
 }
 .motto-text-container{
     background: hsl(139, 22%, 51%);
@@ -71,8 +71,8 @@ nav{
     align-items: center;
     width: 50%;
 
-    border-style: dashed;
-    border-color:blue;
+    /*border-style: dashed;
+    border-color:blue;*/
 }
 .mission-statement-container p{
     margin-bottom: 0%;
