@@ -33,7 +33,7 @@ const RestaurantMap: React.FC = () => {
           return;
         }
 
-        const updatedData = data.map((restaurant: any) => ({
+        const updatedData = data.map((restaurant: any): Restaurant => ({
           name: restaurant.name,
           address: restaurant.vicinity,
           business_status: restaurant.business_status,

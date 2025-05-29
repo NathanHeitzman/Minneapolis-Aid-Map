@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import TopNav from "../components/TopNav";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import MapView from "../components/MapView";
 
 // Define TypeScript interface for food shelter data
 interface FoodShelter {
@@ -62,7 +63,13 @@ const FoodShelterMap: React.FC = () => {
         <h2>Nearby Food Shelters</h2>
         <ul className="list-group">
           {foodShelters.length === 0 
-            ? (<li className="list-group-item">No food shelters found.</li>) 
+            ? (<>
+              <li className="list-group-item">No food shelters found through API.</li>
+              <main className="map-container">
+                <MapView />
+              </main>
+              </>
+            ) 
             : (
             foodShelters.map((shelter, index) => (
               <li key={index} className="list-group-item">
