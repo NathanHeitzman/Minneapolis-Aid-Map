@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import TopNav from "../components/TopNav";
 import axios from "axios";
 import "react-datepicker/dist/react-datepicker.css";
-import "./createpage.css"; // Import CSS
+import "./styles/createpage.css"; // Import CSS
 
 const CreateFoodDrop: React.FC = () => {
   const [name, setName] = useState("");

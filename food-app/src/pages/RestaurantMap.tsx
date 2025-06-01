@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import TopNav from "../components/TopNav";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import "./restaurant.css"; // Import CSS
+import "./styles/restaurant.css"; // Import CSS
 import MinneapolisMap from "../components/MinneapolisMap";
 
 interface Restaurant {
