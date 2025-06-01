@@ -1,4 +1,4 @@
-import './topnav.css'
+import './styles/topnav.css'
 import { Link } from 'react-router-dom' /*this will make loading different components much faster*/
 
 const TopNav = () => {
