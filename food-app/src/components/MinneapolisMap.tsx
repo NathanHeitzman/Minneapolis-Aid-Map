@@ -3,12 +3,12 @@ import BackupRestaurants from "../data/BackupRestaurants.json"
 import BackupShelters from "../data/BackupShelters.json"
 import 'leaflet/dist/leaflet.css';
 
-interface MapViewProps {
+interface MinneapolisMapProps {
     mode: string,
 };
 
 const Minneapolis: [number, number] = [44.9778,-93.2650]; //tuple of [Latitude,Longitude]
-function MapView({ mode }: MapViewProps) {
+function MinneapolisMap({ mode }: MinneapolisMapProps) {
     return (
         <MapContainer 
         center ={Minneapolis} 
@@ -53,4 +53,4 @@ function MapView({ mode }: MapViewProps) {
         </MapContainer>
     )
 }
-export default MapView;
+export default MinneapolisMap;

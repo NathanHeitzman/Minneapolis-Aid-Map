@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import TopNav from "../components/TopNav";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import MapView from "../components/MapView";
+import MinneapolisMap from "../components/MinneapolisMap";
 
 // Define TypeScript interface for food shelter data
 interface FoodShelter {
@@ -62,15 +62,16 @@ const FoodShelterMap: React.FC = () => {
       <div className="container mt-4">
         <h2>Nearby Food Shelters</h2>
         <ul className="list-group">
-          {foodShelters.length === 0 
-            ? (<>
-              <li className="list-group-item">No food shelters found through API.</li>
+          {foodShelters.length === 0 ? (
+            <>
+              <li className="list-group-item">
+                No food shelters found through API.
+              </li>
               <main className="map-container">
-                <MapView mode="shelters"/>
+                <MinneapolisMap mode="shelters" />
               </main>
-              </>
-            ) 
-            : (
+            </>
+          ) : (
             foodShelters.map((shelter, index) => (
               <li key={index} className="list-group-item">
                 <div className="d-flex">
@@ -83,12 +84,21 @@ const FoodShelterMap: React.FC = () => {
                         width={100}
                       />
                     ) : (
-                      <div style={{ width: 100, height: 100, backgroundColor: "#f0f0f0" }} />
+                      <div
+                        style={{
+                          width: 100,
+                          height: 100,
+                          backgroundColor: "#f0f0f0",
+                        }}
+                      />
                     )}
                   </div>
                   <div className="ms-3">
                     <strong>{shelter.name}</strong> - {shelter.address}
-                    <p>Rating: {shelter.rating} ({shelter.user_ratings_total} reviews)</p>
+                    <p>
+                      Rating: {shelter.rating} ({shelter.user_ratings_total}{" "}
+                      reviews)
+                    </p>
                     <p>Status: {shelter.business_status}</p>
                   </div>
                 </div>

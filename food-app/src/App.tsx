@@ -16,8 +16,6 @@ import ClaimFoodDrop from "./pages/ClaimFoodDrop.tsx";
 import DeleteFoodDrop from "./pages/DeleteFoodDrop.tsx";
 import ContactUs from "./pages/ContactUs.tsx";
 
-import './App.css';
-
 function App() {
   return (
     <Router>
