@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";  // Ensure JS is loaded
 import HappyPeopleWithFood from '../data/images/happy-people-image.avif';
 import GroupOfPeople from '../data/images/group-of-people.jpg'
-import './styles/Home.css';
+import '../styles/pageStyles/Home.css';
 
 function Home() {  
   return (

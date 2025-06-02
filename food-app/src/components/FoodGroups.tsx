@@ -1,4 +1,3 @@
-import './styles/foodgroups.css'
 import TopNav from "./TopNav";
 
 const items = [
