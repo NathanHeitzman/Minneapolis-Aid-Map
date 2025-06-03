@@ -1,4 +1,5 @@
 import TopNav from "../components/TopNav";
+import Footer from "../components/Footer"
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";  // Ensure JS is loaded
 import HappyPeopleWithFood from '../data/images/happy-people-image.avif';
@@ -44,6 +45,7 @@ function Home() {
           </p>
       </div>
     </div>
+    <Footer />
     </>
   );
 };

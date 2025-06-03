@@ -48,8 +48,6 @@ function MinneapolisMap({ mode }: MinneapolisMapProps) {
                 </LeafletMarker>
             ))
         }
-
-        {}
         </MapContainer>
     )
 }
